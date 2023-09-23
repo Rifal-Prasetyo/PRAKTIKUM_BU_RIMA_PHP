@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input Data Siswa</title>
+  </head>
+  <body>
+    <h1>Input Data Siswa</h1>
+    <hr />
+    <form action="pratikum3-11_simpandatasiswa.php" method="post">
+      <table border="0" width="600">
+        <tr>
+          <td width="120" bgcolor="green"><p color="white">Nis</p></td>
+          <td><input type="text" name="txtnis" id="" size="20" /></td>
+        </tr>
+        <tr>
+          <td width="120" bgcolor="green"><p color="white">Nama</p></td>
+          <td><input type="text" name="txtnama" id="" size="20" /></td>
+        </tr>
+        <tr>
+          <td width="120" bgcolor="green"><p color="white">Alamat</p></td>
+          <td><input type="text" name="txtalamat" id="" size="20" /></td>
+        </tr>
+        <tr>
+          <td width="120" bgcolor="green">
+            <font color="white">Jenis Kelamin</font>
+          </td>
+          <td>
+            <input type="radio" name="rdjeniskel" id="" value="L" checked />Laki
+            Laki &nbsp;
+            <input type="radio" name="rdjeniskel" value="P" id="" />Perempuan
+          </td>
+        </tr>
+        <tr>
+          <td width="120" bgcolor="green"><p color="white">Nilai</p></td>
+          <td><input type="text" name="txtnilai" id="" size="20" /></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <input type="submit" value="Simpan" style="width: 100px" />
+            <input type="reset" value="Batal" style="width: 100px" />
+            <input
+              type="button"
+              value="Display Data Siswa"
+              style="width: 100px"
+              onclick="window.open('pratikum3-11_displaydatasiswa.php', '_self')"
+            />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

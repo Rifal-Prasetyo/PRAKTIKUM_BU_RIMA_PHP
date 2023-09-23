@@ -1,0 +1,38 @@
+<html>
+<head>
+</title>Guest Book</title>
+</head>
+<body>
+<h1>Guest book</h1>
+<hr>
+<form method="post" action="pratikum3-10_prosesguestbook.php">
+<table width=400>
+    <tr>
+        <td>Name</td>
+        <td><input type="text" name="txtname" size="30"></td>
+    </tr>
+    <tr>
+        <td>Email</td>
+        <td><input type="text" name="txtemail" size="30"></td><td>
+    </tr>
+    <tr>
+        <td>Comment</td>
+        <td></td>
+    </tr>
+
+    <tr>
+        <td colspan="2"><textarea name="txtcomment" cols="40" rows="8"></textarea></td>
+    </tr>
+
+    <tr>
+        <td colspan="2">
+            <input type="submit" value="Send">
+            <input type="reset" value="Cancel">
+            <input type="button" value="Read Guestbook Entry" onclick="window.open('pratikum3-10_displayguestbook.php','_self')">"
+        </td>
+    </tr>
+</table>
+</form>
+</body>
+</html>
+        

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulir</title>
+  </head>
+  <body>
+    <h1>Demo mengirim nilai lewat form</h1>
+    <hr />
+    <form action="pratikum3-2_cekformulir.php" method="post">
+      <table>
+        <tr>
+          <td width="120">
+            <select name="cmbGelarDepan" id="">
+              <option value="Ir.">Ir.</option>
+              <option value="Dr.">Dr.</option>
+              <option value="Prof.">Prof.</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Nama</td>
+
+          <td>
+            <input
+              type="text"
+              name="txtNama"
+              size="30"
+              id=""
+              placeholder="Muhammad Rifal Prasetyo"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td>Alamat</td>
+          <td>
+            <input
+              type="text"
+              name="txtAlamat"
+              size="30"
+              id=""
+              placeholder="Srikandang"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td width="120">Gelar Belakang</td>
+          <td>
+            <select name="cmbGelarBelakang" id="">
+              <option value="M.Kom">M.kom</option>
+              <option value="M.M.">M.M.</option>
+              <option value="M.Pd.">M.Pd</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <input type="submit" value="Kirim" />
+            <input type="reset" value="Batal" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
