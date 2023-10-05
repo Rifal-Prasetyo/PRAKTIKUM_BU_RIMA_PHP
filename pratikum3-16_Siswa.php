@@ -7,7 +7,7 @@ define('user', 'cobadeh');
 define('password', 'indonesia');
 define('database', 'pendataan');
 
-require "praktikum3-16_orang.php";
+require "pratikum3-16_Orang.php";
 class Siswa extends Orang
 {
     private $nis;
