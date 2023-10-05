@@ -1,7 +1,7 @@
 <?php
     define('host', 'localhost');
-    define('user', 'root');
-    define('password','');
+    define('user', 'cobadeh');
+    define('password','indonesia');
     define('database', 'latihan_session');
 
     $coon=mysqli_connect(host,user,password, database);
@@ -9,4 +9,3 @@
         die("Koneksi Gagal: " . mysqli_connect_error());
     }
         echo "Koneksi Berhasil";
-?>
